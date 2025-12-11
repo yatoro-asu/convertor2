@@ -38,12 +38,12 @@ EXCHANGE_API_KEY=ваш_ключ_здесь
 Базовый запуск (по умолчанию: RUB → USD, сумма 1.0):
 
 ```
-python currency_converter.py
+python main.py
 ```
 
 2. Указание параметров через аргументы
 
 ```
-python currency_converter.py --base EUR --target USD --amount 100 
+python main.py --base EUR --target USD --amount 100 
 ```
 
